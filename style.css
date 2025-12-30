@@ -26,6 +26,13 @@ p {
     margin-bottom: 30px;
 }
 
+a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
 button {
     width: 80%;
     max-width: 300px;
@@ -37,4 +44,11 @@ button {
     color: black;
     font-weight: bold;
     cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* Вторая кнопка (Google Drive) */
+a:last-of-type button {
+    background: #4285F4;
+    color: white;
 }
